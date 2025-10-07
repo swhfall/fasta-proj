@@ -17,7 +17,7 @@ for sequence in reader_one:
 
 print("\n" + "="*50)
 
-reader_two = FastaReader("examples/GCA_000006945.2_ASM694v2_genomic.fna")  # Исправлен путь
+reader_two = FastaReader("examples/GCA_000006945.2_ASM694v2_genomic.fna") 
 print("Чтение GCA_000006945.2_ASM694v2_genomic.fna:")
 count = 0
 for sequence in reader_two:
